@@ -1,0 +1,19 @@
+{
+  "name": "elm-spa-starter",
+  "version": "1.0.0",
+  "description": "Elm SPA starter",
+  "source": "public/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "private": true,
+  "scripts": {
+    "start": "parcel",
+    "build": "npx elm-spa gen && parcel build",
+    "clean": "rm -rf dist .parcel-cache"
+  },
+  "author": "Haohan Yang",
+  "devDependencies": {
+    "@parcel/transformer-elm": "^2.10.0",
+    "elm": "^0.19.1-5",
+    "parcel": "^2.10.0"
+  }
+}
